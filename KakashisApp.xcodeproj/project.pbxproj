@@ -13,6 +13,9 @@
 		0FBCEFE2200A54C600923039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCEFE1200A54C600923039 /* Assets.xcassets */; };
 		0FBCEFE5200A54C600923039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCEFE3200A54C600923039 /* LaunchScreen.storyboard */; };
 		0FBCEFE8200A54C600923039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCEFE7200A54C600923039 /* main.m */; };
+		0FBCEFF0200CC7CA00923039 /* MinigameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCEFEF200CC7CA00923039 /* MinigameViewController.m */; };
+		0FBCEFF3200CE3CF00923039 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCEFF2200CE3CF00923039 /* SettingsView.m */; };
+		0FBCEFF6200E058900923039 /* RedBullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCEFF5200E058900923039 /* RedBullView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		0FBCEFE4200A54C600923039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FBCEFE6200A54C600923039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FBCEFE7200A54C600923039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FBCEFEE200CC7CA00923039 /* MinigameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinigameViewController.h; sourceTree = "<group>"; };
+		0FBCEFEF200CC7CA00923039 /* MinigameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinigameViewController.m; sourceTree = "<group>"; };
+		0FBCEFF1200CE3CF00923039 /* SettingsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		0FBCEFF2200CE3CF00923039 /* SettingsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+		0FBCEFF4200E058900923039 /* RedBullView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedBullView.h; sourceTree = "<group>"; };
+		0FBCEFF5200E058900923039 /* RedBullView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedBullView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				0FBCEFDB200A54C600923039 /* ViewController.h */,
 				0FBCEFDC200A54C600923039 /* ViewController.m */,
 				0FBCEFDE200A54C600923039 /* Main.storyboard */,
+				0FBCEFF4200E058900923039 /* RedBullView.h */,
+				0FBCEFF5200E058900923039 /* RedBullView.m */,
+				0FBCEFF1200CE3CF00923039 /* SettingsView.h */,
+				0FBCEFF2200CE3CF00923039 /* SettingsView.m */,
+				0FBCEFEE200CC7CA00923039 /* MinigameViewController.h */,
+				0FBCEFEF200CC7CA00923039 /* MinigameViewController.m */,
 				0FBCEFE1200A54C600923039 /* Assets.xcassets */,
 				0FBCEFE3200A54C600923039 /* LaunchScreen.storyboard */,
 				0FBCEFE6200A54C600923039 /* Info.plist */,
@@ -143,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FBCEFDD200A54C600923039 /* ViewController.m in Sources */,
+				0FBCEFF0200CC7CA00923039 /* MinigameViewController.m in Sources */,
 				0FBCEFE8200A54C600923039 /* main.m in Sources */,
 				0FBCEFDA200A54C600923039 /* AppDelegate.m in Sources */,
+				0FBCEFF3200CE3CF00923039 /* SettingsView.m in Sources */,
+				0FBCEFF6200E058900923039 /* RedBullView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

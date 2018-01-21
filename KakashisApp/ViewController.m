@@ -9,6 +9,12 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *titleView;
+@property (weak, nonatomic) IBOutlet UIButton *profileBtn;
+@property (weak, nonatomic) IBOutlet UIButton *gameBtn;
+@property (weak, nonatomic) IBOutlet UIButton *settingsBtn;
+@property (weak, nonatomic) IBOutlet UIButton *globalBtn;
+@property (weak, nonatomic) IBOutlet UIButton *redbullBtn;
 
 @end
 
@@ -16,6 +22,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _profileBtn.layer.cornerRadius = 10;
+    _gameBtn.layer.cornerRadius = 10;
+    _settingsBtn.layer.cornerRadius = 10;
+    _globalBtn.layer.cornerRadius = 10;
+    _redbullBtn.layer.cornerRadius = 10;
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
